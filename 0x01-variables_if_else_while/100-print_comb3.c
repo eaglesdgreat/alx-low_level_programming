@@ -23,8 +23,11 @@ int main(void)
 			{
 				putchar(x);
 				putchar(y);
-				putchar(44);
-				putchar(32);
+				if (x != '8')
+				{
+					putchar(44);
+					putchar(32);
+				}
 			}
 		}
 	}
